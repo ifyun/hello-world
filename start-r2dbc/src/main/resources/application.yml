@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: start-r2dbc
+  r2dbc:
+    url: r2dbc:mariadb://localhost:3306
+    name: demo
+    username: root
+    password: root
